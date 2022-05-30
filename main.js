@@ -74,5 +74,5 @@ $("#close-btn").click(() => {
 });
 
 if (window.navigator.userAgentData.mobile) {
-  $("#qrcode").css("display", 'none');
+  $("#qrwrap").css("display", 'none');
 }
