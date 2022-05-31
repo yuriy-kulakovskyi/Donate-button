@@ -13,7 +13,8 @@ tippy('#donate-button', {
 
 tippy('#donate-button', {
   trigger: 'click',
-  content: 'Copied'
+  content: 'Copied',
+  placement: 'left'
 });
 
 let keys = {37: 1, 38: 1, 39: 1, 40: 1};
